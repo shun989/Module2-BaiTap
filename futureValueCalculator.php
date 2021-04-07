@@ -21,9 +21,9 @@
 <body>
 <form action="" method="post">
     <div class="Check">
-                <span>Inventment Amount<input type="number" name="money" value="" placeholder="0" </span></br>
-                <span>Yearly Interest Rate<input type="text" name="rate" value="" placeholder="0" </span></br>
-                <span>Number of Years <input type="number" name="year" value="" placeholder="0" </span></br>
+                <span>Inventment Amount<input type="number" name="money" value="" placeholder="Tiền gửi:" </span></br>
+                <span>Yearly Interest Rate<input type="text" name="rate" value="" placeholder="Hệ số lãi 1 năm(%)" </span></br>
+                <span>Number of Years <input type="number" name="year" value="" placeholder="Số năm:" </span></br>
                 <button type="submit" name="calculate">Calculate</button>
 <!--        <span>Inventment Amount<input type="number" name="money" id="money" value="" </span></br>-->
 <!--        <span>Yearly Interest Rate<input type="number" name="rate" id="rate" value="" </span></br>-->
