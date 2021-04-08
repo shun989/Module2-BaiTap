@@ -12,14 +12,14 @@
         height: 25px;
     }
 </style>
+<body>
 <form action="" method="post">
 
-        <input type="text" name="width" value="" placeholder="Chiều rộng:">
-        <input type="text" name="height" value="" placeholder="Chiều dài:">
-        <button type="submit" name="calculate">Calculate</button>
+    <input type="text" name="width" value="" placeholder="Chiều rộng:">
+    <input type="text" name="height" value="" placeholder="Chiều dài:">
+    <button type="submit" name="calculate">Calculate</button>
 
 </form>
-<body>
 <?php
     include "Rectangle.php";
     if(isset($_POST["width"])) {$_POST["width"];}
