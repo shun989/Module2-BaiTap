@@ -36,7 +36,7 @@
         if ($delta > 0){
             echo "Phương trình có 2 nghiệm : x1 = " . $PTB2->getRoot1() . " ; x2 = " . $PTB2->getRoot2();
         }elseif($delta == 0){
-            echo "Phương trình có nghiệm kép : x1 = x2 = " . (-b / $a * 2);
+            echo "Phương trình có nghiệm kép : x1 = x2 = " . -$b / ($a * 2);
         }else{
             echo "Phương trình vô nghiệm.";
         }

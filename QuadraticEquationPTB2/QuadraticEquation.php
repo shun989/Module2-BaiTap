@@ -3,9 +3,9 @@
 
 class QuadraticEquation
 {
-    private $a;
-    private $b;
-    private $c;
+    private int $a;
+    private int $b;
+    private int $c;
 
     public function __construct($a, $b, $c){
         $this->a = $a;
@@ -26,7 +26,8 @@ class QuadraticEquation
         return (-$this->b - sqrt($this->getDiscriminant()))/($this->a * 2);
     }
 
-    public function display(){
+    public function display(): string
+    {
         return "QuadraticEquation(Phương trình bậc hai) ( " . $this->a . "x2 + " . $this->b . "x + " . $this->c ." = 0)";
     }
 }
